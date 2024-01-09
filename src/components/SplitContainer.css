@@ -36,13 +36,33 @@ body, html {
 
   }
 
+  .Intro {
+    margin-bottom: 33px;
+  }
+
   .SDSU_Logo {
+    margin-top: 90px;
     width: 20vh;
     height: 12vh;
   }
 
+  .SDSU_Logo_Font {
+    margin-top: 150px;
+  }
+
+  .Links {
+    margin-top: 250px;
+  }
+
   .photo {
-    width: 30vh;
+    width: 30;
     height: 20vh;
-    margin-top: 70px;
+    margin-top: 13px;
+  }
+
+  .SocialIcons{
+    background-color: grey;
+    color: grey;
+    filter:grayscale(1);
+    height: 20vh;
   }
