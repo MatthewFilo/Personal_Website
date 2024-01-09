@@ -49,7 +49,7 @@ body, html {
   .SDSU_Logo_Font {
     margin-top: 150px;
   }
-
+ 
   .Links {
     margin-top: 250px;
   }
@@ -64,5 +64,4 @@ body, html {
     background-color: grey;
     color: grey;
     filter:grayscale(1);
-    height: 20vh;
   }
