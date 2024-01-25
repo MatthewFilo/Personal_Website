@@ -5,8 +5,8 @@ import LinkedIn from './LinkedIn';
 function SocialMedia() {
     return (
     <div>
-        {/* <Github /> */}
-        {/* <br /> */}
+        <Github />
+        <br />
         <LinkedIn />
     </div>
     )

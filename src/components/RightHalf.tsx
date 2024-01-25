@@ -14,6 +14,7 @@ function RightHalf() {
             <img className="SDSU_Logo" src={SDSU_Logo} />
             <h2> Bachelor's of Science in Computer Science <br /> San Diego State University <br /> Class of '22 </h2>
             <hr />
+            <SocialMedia />
         </div>
     );
   }
