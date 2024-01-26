@@ -2,11 +2,10 @@ import React from 'react';
 import Github from './Github';
 import LinkedIn from './LinkedIn';
 
-function SocialMedia() {
+const SocialMedia = () => {
     return (
-    <div>
+    <div className="SocialIcons">
         <Github />
-        <br />
         <LinkedIn />
     </div>
     )

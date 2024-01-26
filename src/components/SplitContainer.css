@@ -69,7 +69,14 @@ body, html {
   }
 
   .SocialIcons{
-    background-color: grey;
-    color: grey;
-    filter:grayscale(1);
+    display: flex;
+    gap: 8px;
+    margin: 30px 30px 30px 30px;
+    align-items: center;
+    overflow: auto;
+  }
+
+  .SocialIcons svg{
+    width: 100%;
+    height: auto;
   }
