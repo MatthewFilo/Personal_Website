@@ -14,6 +14,9 @@ function RightHalf() {
             <h2> Bachelor's of Science in Computer Science <br /> San Diego State University <br /> Class of '22 </h2>
             <hr />
             <SocialMedia/>
+            <hr />
+            <button className="btn-11">About Me</button>
+            <button className="btn-11">Projects</button>
         </div>
     );
   }

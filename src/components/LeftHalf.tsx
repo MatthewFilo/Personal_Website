@@ -10,6 +10,8 @@ function LeftHalf() {
             <h1 className="SDSU_Logo_Font">Education</h1>
             <br />
             <h1 className="Links">Links</h1>
+            <br />
+            <h1 className="Footer">Footer</h1>
         </div>
     );
   }

@@ -1,3 +1,10 @@
+@-webkit-keyframes shiny-btn1 {
+  0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+  80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+  81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+  100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+}
+
 body, html {
     margin: 0;
     padding: 0;
@@ -37,7 +44,7 @@ body, html {
   }
 
   .Intro {
-    margin-bottom: 33px;
+    margin-bottom: 40px;
   }
 
   .SDSU_Logo {
@@ -55,7 +62,11 @@ body, html {
   }
  
   .Links {
-    margin-top: 250px;
+    margin-top: 270px;
+  }
+
+  .Footer {
+    margin-top: 270px;
   }
 
   .photo {
@@ -80,3 +91,40 @@ body, html {
     width: 100%;
     height: auto;
   }
+
+  button {
+    margin: 20px;
+    outline: none;
+  }
+
+  /* 11 */
+.btn-11 {
+  height: 100px;
+  width: 200px;
+  margin-top: 70px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  background-color: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn-11:hover {
+  background: #000;
+  color: #fff;
+}
+.btn-11:before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    background-color: white;
+    animation: shiny-btn1 3s ease-in-out infinite;
+}
+.btn-11:active{
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+
